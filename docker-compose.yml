@@ -3,7 +3,7 @@ version: "3"
 services:
   sonarqube:
     image: sonarqube:community
-    container_name: new_sonarqube
+    container_name: newSonarqube
     depends_on:
       - db
     environment:
